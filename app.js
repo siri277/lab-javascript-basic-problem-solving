@@ -100,8 +100,18 @@ console.log(ProGrad_2 + " " + ProGrad_1);
 // - The driver's name goes first.
 // - Yo, the navigator goes first definitely.
 // - What?! You both have the same name?
-
-
+var string = ['Aswathi', 'SiriChandana'];
+string.sort(function (a, b) {
+    if (a > b) {
+        console.log("The driver's name goes first");
+    }
+    else if (b > a) {
+        console.log("Yo, the navigator goes first definitely");
+    }
+    else {
+        console.log("what?! You both have the same name?");
+    }
+});
 // Bonus Time!
 // Bonus 1:
 // Go to lorem ipsum generator and:
